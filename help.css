@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.inside-header {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+
+}
+
+nav ul>li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+.sec-header {
+    width: 100%;
+
+    padding-block: 20px;
+    background-color: white;
+}
+
+.sec-header div {
+    width: 85%;
+    margin: auto;
+
+
+}
+
+.sec-header div span {
+    border-right: 2px solid rgba(128, 128, 128, 0.356);
+    padding-right: 10px;
+    font-size: 1.5rem;
+}
+
+.first-section {
+    background-image: url(https://tb-static.uber.com/prod/bliss-helpdot/asset/images/landing-page-index.jpeg);
+    height: 70vh;
+    background-position: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+
+}
+
+.first-section .inside-first-sect {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.inside-first-sect div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 50px;
+
+
+}
+
+.inside-first-sect h1 {
+    font-size: 3rem;
+}
+
+.small-icons-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    align-items: center;
+    background-color: white;
+    gap: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 20%;
+    cursor: pointer;
+
+}
+
+footer {
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.footer-grid {
+
+    /* border: 2px solid white; */
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(auto, auto);
+    gap: 20px;
+
+
+
+}
+
+.lnk {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer-st {
+    grid-column: 7 / span 4;
+    grid-row: 3 / span 5;
+
+}
+
+.uber-logo {
+    grid-column: 2 /span 5;
+    grid-row: 6/span 9;
+}
+
+.footer-nd {
+    grid-column: 2/span 5;
+    grid-row: 10;
+}
+
+.table-sect {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: auto;
+    gap: 36px;
+    place-content: center;
+    margin-bottom: 50px;
+
+}
+
+#table-area {
+    grid-column: 2/4;
+}
+
+#table-area-nd {
+    grid-column: 4/6;
+}
+
+#table-area-rd {
+    grid-column: 6/7;
+}
+
+#table-th {
+    grid-column: 8/9;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.table thead>tr>th {
+    font-size: 1.1rem;
+}
+
+.table tbody td {
+    padding-bottom: 20px;
+}
+
+#global-cit {
+    text-align: left;
+    width: 100px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.icons {
+    display: flex;
+    gap: 50px;
+
+}
+
+.icons a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+
+}
+
+#last-part div a {
+    color: grey;
+    font-size: small;
+    text-decoration: none;
+    margin-left: 30px;
+
+}

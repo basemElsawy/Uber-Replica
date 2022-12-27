@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+header {
+    height: 65px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inside-header {
+    padding: 10px;
+    margin-left: 70px;
+}
+
+.inside-main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.inside-main input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(228, 225, 225);
+}
+
+.inside-main input:focus {
+    background-color: white;
+}
+
+.inside-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    gap: 20px;
+}
+
+.btn-input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(242, 242, 242);
+    padding-block: 15px;
+}
+
+.or {
+    color: grey;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.or::before {
+    content: "";
+    width: 170px;
+    position: absolute;
+    z-index: -100;
+    top: 50%;
+    left: 100%;
+    background-color: grey;
+    height: 1px;
+
+}
+
+.or::after {
+    content: "";
+    width: 170px;
+    position: absolute;
+    z-index: -100;
+    top: 50%;
+    right: 100%;
+    background-color: grey;
+    height: 1px;
+
+}
+
+.login-variety {
+    width: 100%;
+    padding-block: 15px;
+    background-color: rgb(228, 225, 225);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: black;
+    border: none;
+}
+
+.article {
+    margin-bottom: 70px;
+
+}
+
+.small-article {
+    font-size: small;
+}
